@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artikli</title>
+  <style>
+  </style>
+</head>
+<body>
+  <h1>Artikli</h1>
+  <table id="artikli">
+    <thead>
+      <tr>
+        <th>Br</th>
+        <th>Naziv</th>
+        <th>Cena($)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Monitor</td>
+        <td>165</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>TV</td>
+        <td>650</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Miš</td>
+        <td>20</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="details" id="detalji">
+    <p>Naziv: ...</p>
+    <p>Cena: ...</p>
+    <p>Opis: ...</p>
+  </div>
+
+  <div class="form">
+    <label>Naziv: <input type="text" id="naziv" /></label><br />
+    <label>Cena: <input type="number" id="cena" /></label><br />
+    <label>Opis: <input type="text" id="opis" /></label><br />
+    <button id="dodaj">Dodaj</button>
+  </div>
+  <p style="color: blue;">Forma za dodavanje novog proizvoda u tabelu.</p>
+  <p style="color: red;">Div sa detaljima (renderuje se klikom na neki od proizvoda iz tabele)</p>
+
+  <script></script>
+</body>
+</html>
