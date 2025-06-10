@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.details, .form {
+  border: 2px solid;
+  padding: 15px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.details {
+  border-color: red;
+  margin-bottom: 10px;
+}
+
+.form {
+  border-color: blue;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+p.note {
+  font-size: 14px;
+}
+p.note.red {
+  color: red;
+}
+p.note.blue {
+  color: blue;
+}
