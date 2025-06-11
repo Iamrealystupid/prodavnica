@@ -7,6 +7,7 @@
 </head>
 <body>
   <h1>Artikli</h1>
+
   <table id="artikli">
     <thead>
       <tr>
@@ -15,23 +16,7 @@
         <th>Cena($)</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Monitor</td>
-        <td>165</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>TV</td>
-        <td>650</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Miš</td>
-        <td>20</td>
-      </tr>
-    </tbody>
+    <tbody></tbody> <!-- PRAZNO: puni se iz JS-a -->
   </table>
 
   <div class="details" id="detalji">
@@ -46,8 +31,9 @@
     <label>Opis: <input type="text" id="opis" /></label><br />
     <button id="dodaj">Dodaj</button>
   </div>
-  
 
- <script src="prodavnica.js"></script>
+  <button id="obrisiSve">Obriši sve</button>
+
+  <script src="prodavnica.js"></script>
 </body>
 </html>
